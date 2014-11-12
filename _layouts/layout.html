@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>
+        {{ page.title }}{% if site.title %} - {{ site.title }}{% endif %}
+    </title>
+    <link
+        rel="stylesheet"
+        href="{{ site.assets_directory }}css/normalize.css"
+    />
+    <link
+        rel="stylesheet"
+        href="{{ site.assets_directory }}css/main.css"
+    />
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>{{ site.title }}</h1>
+            <nav>
+                {% include _navigation.html %}
+            </nav>
+        </header>
+        <section>
+            {{ content }}
+        </section>
+        <footer>
+            &copy; 2013 &mdash; {{ site.author }}
+        </footer>
+    </div>
+</body>
+</html>

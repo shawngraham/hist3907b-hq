@@ -1,0 +1,39 @@
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+header {
+    border-bottom: 1px solid #cacaca;
+    padding: 20px 20px 0;
+}
+section {
+    padding: 20px;
+}
+footer {
+    border-top: 1px solid #cacaca;
+    padding: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    clear: both;
+}
+nav li {
+    float: left;
+}
+nav a {
+    color: #111;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+}
+nav .active {
+    background: #111;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    margin: 0 0 20px;
+}

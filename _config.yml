@@ -1,0 +1,4 @@
+title: Basic Jekyll Structure
+author: Max Glenister
+assets_directory: /assets/
+exclude: ['README.md']
